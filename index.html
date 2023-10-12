@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>3, 4 задание</title>
+</head>
+<body>
+    <ul>
+        <li>1. <span id="firstStudent"></span></li>
+        <li>2. <span id="secondStudent"></span></li>
+        <li>3. <span id="thirdStudent"></span></li>
+    </ul>
+    <script>
+        alert("Задумайте Число")
+        alert("Умножьте это число на 2")
+        alert("Прибавьте к этому числу 7")
+
+        var chislo = prompt("Введите полученное число")
+        var chisloNumber = parseFloat(chislo);
+
+        var chislo2 = chisloNumber - 7
+        var chislo3 = chislo2 / 2
+        alert("Ваше задуманное число : "+ chislo3);
+
+    var first = prompt("Введите Имя и Фамилию первого студента");
+    var second = prompt("Введите Имя и Фамилию второго студента");
+    var third = prompt("Введите Имя и Фамилию третьего студента");
+
+    document.getElementById("firstStudent").textContent = first;
+    document.getElementById("secondStudent").textContent = second;
+    document.getElementById("thirdStudent").textContent = third;
+</script>
+
+</body>
+</html>
